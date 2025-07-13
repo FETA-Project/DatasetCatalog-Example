@@ -1,7 +1,9 @@
 # DatasetCatalog-Example
-Getting started example with Dataset Catalog report demonostrated on CESNET-MINERS22
+Getting started example with the Dataset Catalog report demonstrated on CESNET-MINER22.
 
-1. Download this repository. It provides all sample files for Getting Started showcase
-2. Downlaod DatasetCatalog-Tools repository. It contains all dataset quality evaluation tools to get inputs for dataset report.
-3. Check file analysis_example.toml. It has the default structure for dataset report that is create after dataset upload to Dataset Catalog
-4. 
+1. Download this repository. It provides all sample files for the Getting Started showcase
+2. Download the DatasetCatalog-Tools repository. It contains all the dataset quality evaluation tools to get inputs for the dataset report.
+3. Follow the Getting Started instructions below.
+4. Adjust filesystem paths in the example configuration files so that they are in line with real locations
+
+## Getting Started Instructions
