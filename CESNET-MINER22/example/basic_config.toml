@@ -1,0 +1,7 @@
+input_analysis_file = "analysis.toml"
+input_direct_analysis_paper_file = "cesnet-miner-22-paper.pdf"
+input_reference_papers_directory = "cited"
+output_main_analysis_file = "../output/analysis_extract.toml"
+output_per_paper_reference_analysis_file = "../output/per_paper_reference_analysis.toml"
+output_direct_analysis_debug_file = "../output/debug/main_analysis_debug.toml"
+output_reference_analysis_debug_file = "../output/debug/reference_analysis_debug.toml"

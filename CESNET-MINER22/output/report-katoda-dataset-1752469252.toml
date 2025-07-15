@@ -1,0 +1,74 @@
+[collection_workflow]
+data_collection_tool = """  """
+data_collection_year = """  """
+feature_extraction_tool_info = """ Tool that converts dataset to feature dataset. If any. """
+feature_extraction_tool = """  """
+feature_extraction_tool_description = """  """
+capture_config_parameters_info = """ specific parameters that were used to capture dataset or feature dataset """
+capture_config_parameters = """  """
+real_dataset_info = """ Source of the dataset. E.g., real environment, testbed or generated. """
+real_dataset = """  """
+annotation_info = """ Description of the dataset annotation. E.g., manual, automatic """
+annotation = """  """
+
+[generic_info]
+classes = """ 2 """
+features = """ 15 """
+f1-score_info = """ F1-score calculated based on NDVM tool [https://github.com/soukudom/NDVM] """
+f1-score = """  """
+performance_metric_info = """ Perfomance metric defined by the author. Please define full specification e.g., F1-weighted """
+performance_metric_name = """  """
+performance_metric_value = """  """
+label_info = """ Name of the field with label. In case this is unsupervised dataset, type None """
+label = """  """
+known_issues_info = """ Description of indentified issues in the dataset """
+known_issues = """   """
+key_observations_info = """ List of known errors, drifts, limits, ... of the dataset """
+key_observations = """  *  The dataset has 0 small classes, 0 duplicated samples, 0 nan value """
+dataset_organization_info = """ Structure of the dataset. E.g., per day, per capture, per device """
+dataset_organization = """  """
+dataset_organization_description_info = """ Description of the content of the organization. Is there any metadata? """
+dataset_organization_description = """   """
+dataset_documentation_info = """ How to get started with the dataset. Ideally add example notebook. """
+dataset_documentation = """   """
+used_dataset_info = """ Script to get dataset for provided analysis """
+used_dataset = """ get-dataset.py """
+dataset_application_info = """ Where the dataset has been already applied. """
+dataset_application = """   """
+per_class_data = """{
+  "Miner": "2003",
+  "Other": "1996"
+}"""
+per_feature_data = """{
+  "uint64 BYTES": "",
+  "uint64 BYTES_REV": "",
+  "time TIME_FIRST": "",
+  "time TIME_LAST": "",
+  "uint32 PACKETS": "",
+  "uint32 PACKETS_REV": "",
+  "uint16 DST_PORT": "",
+  "uint16 SRC_PORT": "",
+  "uint8 PROTOCOL": "",
+  "uint8 TCP_FLAGS": "",
+  "uint8 TCP_FLAGS_REV": "",
+  "string LABEL": "",
+  "int8* PPI_PKT_DIRECTIONS": "",
+  "uint8* PPI_PKT_FLAGS": "",
+  "uint16* PPI_PKT_LENGTHS": "",
+  "time* PPI_PKT_TIMES": ""
+}"""
+
+[dataset_drift_analysis]
+
+[advanced_metrics]
+description = """  """
+perqoda_permutation_slope = """  """
+p_value_status = """  """
+redundancy = """  """
+similarity = """  """
+advanced_metrics_workflow = """ dataset-metrics.json """
+
+[dataset_comparison]
+description = """ ML model comparison for this dataset """
+use_case = """   """
+similar_dataset = """   """
