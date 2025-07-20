@@ -6,10 +6,11 @@ Getting started example with the Dataset Catalog report demonstrated on sampled 
 3. Follow the Getting Started instructions below.
 
 # Getting Started Instructions
-CESNET-MINER22
+## CESNET-MINER22
 1. ..
 2. ..
-CESNET-MINER22-PPI
+3. 
+## CESNET-MINER22-PPI
 1. ...
 2. ...
 
