@@ -33,7 +33,7 @@ This folder represents the derived dataset that cotains PPI data insted of raw c
 3. As result we get dataset metrics and metadata about the input dataset.
 4. This output can be directly used for the dataset report. For visualization of collected metadata from NDVM we can use `example\Metric-Showcase-Miner-22-PPI-sampled.ipynb`
 5. To start with Drift Analyzer we need to update the configuration files. Use `example/experiment_runner.py`
-6. Math import of the `detector` module from [DatasetCatalog-Tools/drift-analyzer]([https://github.com/FETA-Project/DatasetCatalog-Tools](https://github.com/FETA-Project/DatasetCatalog-Tools/tree/main/drift-analyzer)) with `example/experiment_runner.py`
+6. Math import of the `detector` module from [drift-analyzer]([https://github.com/FETA-Project/DatasetCatalog-Tools](https://github.com/FETA-Project/DatasetCatalog-Tools/tree/main/drift-analyzer)) with `example/experiment_runner.py`
 7. Run Drift Analyzer with `python3 experiment_runner.py`
 8. Edit `retrain` parameter in `experiment_runner.py` from False to True. Update the output filename from `logs_baseline.pkl` to `logs_baseline_retraining.pkl`. With this update we get dataset drift validation with retraining strategy.
 9. As result we directly get dataset drift statistics for the dataset report and more detailed metadata about the whole workflow.
