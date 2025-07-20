@@ -8,7 +8,7 @@ Both folders have the following structure:
 * output: contains all output files for the dataset report from dataset analysis
 * example: contains configuration and support files for creation of the dataset report using [DatasetCatalog-Tools](https://github.com/FETA-Project/DatasetCatalog-Tools)
 
-Both datasets are processed towards the dataset report. You can check generated results or re-run the evaluation.
+Both datasets are processed towards the dataset report. You can check generated results or re-run the evaluation. During re-run follow the instruction below. Based on you environment change filesystem path to match required files in configuration.
 
 ## Getting Started Instructions
 1. Download this repository. It provides all sample files for the Getting Started showcase
@@ -17,8 +17,8 @@ Both datasets are processed towards the dataset report. You can check generated 
 
 ### CESNET-MINER22
 This folder represents the original dataset that provides raw captured data with annotation. To process this dataset we can use NDVM and LLM Analyzer from [DatasetCatalog-Tools](https://github.com/FETA-Project/DatasetCatalog-Tools). 
-1. ..
-2. ..
+1. To start with LLM Analyzer we need to update the configuration files. Use `example/basic_config.toml` and `miner22-example.toml`
+2. Run `python3 main.py`
 3. 
 ### CESNET-MINER22-PPI
 This folder represents the derived dataset that cotains PPI data insted of raw captured data. To process this dataset we can use NDVM and Drift Analyzer from [DatasetCatalog-Tools](https://github.com/FETA-Project/DatasetCatalog-Tools). 
