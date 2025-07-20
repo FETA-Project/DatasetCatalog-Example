@@ -45,7 +45,7 @@ if DATE:
     feat_names = df.columns[:-2]
 
     # Action: Validate experiment configuration variables (binar/mulitclass, label name, index name, experiment name). No need to change thresholds
-    # Action 2: For dataser report purpose, change the retrain flag from "False" to "True" to get results for both scenarios
+    # Action 2: For the dataset report purpose, change the retrain flag from "False" to "True" to get results for both scenarios
     experiment_config = ExperimentConfig(
         data = df,
         chosen_features = feat_names,
