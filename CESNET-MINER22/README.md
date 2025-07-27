@@ -1,14 +1,15 @@
-# Dataset report for CESNET-MINER22-PPI
+# Dataset report for CESNET-MINER22
 
 * Example
-    * config.yml
-    * get-dataset.py
-    * Metric-Showcase-Miner-22-PPI-sampled.ipynb
-    * basic_config.toml
+    * Metric-Showcase-Miner-22-sampled.ipynb - Support Jupyter notebook to display metadata from NDVM tool
+    * basic_config.toml - Input configuration for LLM Analyzer tool
+    * config.yml - Input configuration for NDVM tool
+    * get-dataset.py - Script to get this dataset
+    * miner_input.toml - Input dataset report file
 * Input
-    * cesnet-miner-22-paper.pdf
-    * cited
-    * miner22-sampled.csv
+    * cesnet-miner-22-paper.pdf - Published paper about the original dataset. It is used by LLM Analyzer 
+    * cited - directory with published paper with citation of the original paper. It is used by LLM Analyzer 
+    * miner22-sampled.csv - Sampled input dataset for this example. It is used by NDVM
 * Output
     * main_analysis_miner_22_example_debug.toml
     * main_analysis_miner_22_example_debug.toml
