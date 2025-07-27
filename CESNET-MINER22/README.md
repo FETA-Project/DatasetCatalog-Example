@@ -11,9 +11,10 @@
     * cited - directory with published paper with citation of the original paper. It is used by LLM Analyzer 
     * miner22-sampled.csv - Sampled input dataset for this example. It is used by NDVM
 * Output
-    * main_analysis_miner_22_example_debug.toml
-    * main_analysis_miner_22_example_debug.toml
-    * per_paper_reference_miner_22_example.toml
-    * reference_analysis_miner_22_example_debug.toml
-    * report-dataset-1752469252.csv
-    * report-katoda-dataset-1752469252.toml
+    * main_analysis_miner_22_example.toml - Main output of the LLM Analyzer
+    * main_analysis_miner_22_example_debug.toml - Debug output from the main paper processing using LLM Analyzer
+    * per_paper_reference_miner_22_example.toml - Per paper analysis from the LLM Analyzer of the cited paper
+    * reference_analysis_miner_22_example_debug.toml - Debug output from cited papers processing using LLM Analyzer
+    * report-dataset-1752469252.csv - Dataset metrics report with metadata from the NDVM tool
+    * report-katoda-dataset-1752469252.toml - Dataset metrics report in the format for the Dataset Catalog report
+  
